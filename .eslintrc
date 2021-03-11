@@ -1,0 +1,20 @@
+{
+  "parser": "@babel/eslint-parser",
+  "plugins": ["@babel"],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "require-jsdoc": "off",
+    "@babel/new-cap": "error",
+    "@babel/no-invalid-this": "error",
+    "@babel/no-unused-expressions": "error",
+    "@babel/object-curly-spacing": "error",
+    "@babel/semi": "error"
+  },
+  "extends": [
+    "eslint:recommended", "google"
+  ]
+}

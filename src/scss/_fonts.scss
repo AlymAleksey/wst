@@ -1,0 +1,7 @@
+@import "mixins";
+
+@include font-face(NotoSans, "../fonts/Noto_Sans/NotoSans-Regular", 400, null, ttf);
+@include font-face(NotoSans, "../fonts/Noto_Sans/NotoSans-Bold", 700, normal, ttf);
+@include font-face(Roboto, "../fonts/Roboto/Roboto-Regular", 400, normal, ttf);
+@include font-face(Roboto, "../fonts/Roboto/Roboto-Medium", 500, normal, ttf);
+@include font-face(Roboto, "../fonts/Roboto/Roboto-Bold", 700, normal, ttf);

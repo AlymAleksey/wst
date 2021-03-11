@@ -1,0 +1,32 @@
+@mixin flex-center($isVertical: null, $isHorizontal: null) {
+  display: flex;
+
+  @if ($isVertical) {
+    align-items: center;
+  }
+
+  @if ($isHorizontal) {
+    justify-content: center;
+  }
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-center-column {
+  @include flex-center;
+
+  flex-direction: column;
+}
+
+@mixin flex-center-vert {
+  display: flex;
+  align-items: center;
+}
+
+@mixin flex-center-vert {
+  display: flex;
+  align-items: center;
+}
